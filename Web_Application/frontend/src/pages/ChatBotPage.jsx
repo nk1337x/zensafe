@@ -251,7 +251,7 @@ function ChatBotWindow() {
         <div className="flex-1 flex flex-col items-center mt-3">
           <div className="text-center mb-6">
             <div className="text-4xl lg:text-4xl  tracking-wider">
-              <span className="bg-gradient-to-tr from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-tr from-[#FF6A6A] via-[#E84142] to-[#C92A2A] bg-clip-text text-transparent font-semibold">
                 Hi, Iam CCTV Bot
               </span>{" "}
             </div>
@@ -617,12 +617,13 @@ function ChatBotPage() {
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl text-gray-900 dark:text-white">
-              <span className="bg-gradient-to-tr from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">
+              <span className="text-[#E84142] font-semibold">
                 Chatbot
               </span>{" "}
               <span className="text-gray-700 dark:text-gray-300 text-2xl">
                 Smart CCTV Querying System
               </span>
+  
             </h1>
             <div className="flex items-center space-x-4">
               <div className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">

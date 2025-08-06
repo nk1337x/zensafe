@@ -251,9 +251,9 @@ function App() {
                   initial={{ y: -20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.3, duration: 0.8 }}
-                  src="unisys_logo.png" // Replace with your logo path
+                  src="Avalanche_log-removebg-preview.png" // Replace with your logo path
                   alt="Program Logo"
-                  className="w-25 h-12 mx-auto mb-5"
+                  className="w-200 h-80 mx-auto mb-5"
                 />
                 {/* Glowing Text */}
                 <motion.h1
@@ -262,17 +262,18 @@ function App() {
                   transition={{ delay: 0.6, duration: 0.8 }}
                   className="text-5xl font-semibold mb-7 text-white"
                 >
-                  Unisys Innovation Program
+                  AVALANCHE TEAM1 INDIA
                 </motion.h1>
                 <motion.h2
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.9, duration: 0.8 }}
-                  className="text-2xl font-semibold text-green-300"
+                  className="text-2xl font-semibold"
+                  style={{ color: '#d84e4eff' }}
                 >
-                  Practical AI and Blockchain In Empowering CCTV Surveillance
-                  For Woman's and Public Safety
+                  Practical AI and Blockchain In Empowering CCTV Surveillance For Woman’s, Public Safety and Smart City Innovation.
                 </motion.h2>
+
               </div>
             </motion.div>
           ) : (
