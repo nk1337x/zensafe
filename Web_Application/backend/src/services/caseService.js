@@ -9,7 +9,7 @@ const provider = new ethers.JsonRpcProvider(
 );
 
 // Replace with your deployed contract address and ABI
-const contractAddress = "0x69d8317516c262d1C8d957B8Fe242f18c4C37D05";
+const contractAddress = "0x932e56b90Bf1BEf79B106328cA1aA54aEFD060EF";
 const contractABI = [
   "function createCase(string,string,string) public",
   "function addEvidence(string,string,string,uint256) public",

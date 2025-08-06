@@ -54,7 +54,7 @@ const OverviewPage = () => {
   const provider = new ethers.JsonRpcProvider(
     "https://open-campus-codex-sepolia.drpc.org"
   );
-  const contractAddress = "0x69d8317516c262d1C8d957B8Fe242f18c4C37D05";
+  const contractAddress = "0x932e56b90Bf1BEf79B106328cA1aA54aEFD060EF";
   const contractABI = [
     "function getTotalCases() view returns (uint256)",
     "function addEvidence(string _mediaHash, string _description, string _datetime, uint256 _caseId) public",

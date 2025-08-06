@@ -68,7 +68,7 @@ function CaseMap() {
   });
 
   // Smart contract connection
-  const contractAddress = "0x69d8317516c262d1C8d957B8Fe242f18c4C37D05";
+  const contractAddress = "0x932e56b90Bf1BEf79B106328cA1aA54aEFD060EF";
 
   useEffect(() => {
     // If no caseId, redirect back to the overview page
