@@ -8,8 +8,8 @@ const sendEmail = async (to, subject, context = {}, attachmentPath = null) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "senaaravichandran@gmail.com",
-        pass: "ewcl tisw ldbk kwdv",
+        user: "nidhins1807@gmail.com",
+        pass: "slhy vpvm jwhx ezif",
       },
     });
 
@@ -49,4 +49,4 @@ const sendEmail = async (to, subject, context = {}, attachmentPath = null) => {
   }
 };
 
-module.exports = { sendEmail };
+module.exports = { sendEmail };   

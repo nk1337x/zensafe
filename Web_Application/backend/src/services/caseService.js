@@ -4,12 +4,13 @@ const crypto = require("crypto");
 require("dotenv").config();
 
 // Replace with your actual provider URL
-const provider = new ethers.JsonRpcProvider(
-  "https://open-campus-codex-sepolia.drpc.org"
-);
+// const provider = new ethers.JsonRpcProvider(
+//   "https://open-campus-codex-sepolia.drpc.org"
+// );
+const provider = new ethers.JsonRpcProvider("https://api.avax-test.network/ext/bc/C/rpc");
 
 // Replace with your deployed contract address and ABI
-const contractAddress = "0x932e56b90Bf1BEf79B106328cA1aA54aEFD060EF";
+const contractAddress = "0x8C105f5a18CB16fa2c86c9C6D555c2960DB82d55";
 const contractABI = [
   "function createCase(string,string,string) public",
   "function addEvidence(string,string,string,uint256) public",
